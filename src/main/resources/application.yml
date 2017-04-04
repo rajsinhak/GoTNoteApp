@@ -1,0 +1,16 @@
+server.port: 9966
+spring.profiles: default
+demo.security.jwt:
+  tokenExpirationTime: 60 # Number of minutes
+  refreshTokenExpTime: 120 # Minutes
+  tokenIssuer: gotprint.com
+  tokenSigningKey: xm8EV6Hy5RMFK4EEACIDAwQus
+spring.datasource:
+  url: "jdbc:derby://localhost:1527/gotprint"
+  driverClassName: org.apache.derby.jdbc.ClientDriver
+  username: gotprint
+  password: p@ssw0rd
+  data: "classpath*:data.sql"
+spring.jpa:
+  database-platform: org.hibernate.dialect.DerbyTenSevenDialect
+  hibernate.ddl-auto: create-drop

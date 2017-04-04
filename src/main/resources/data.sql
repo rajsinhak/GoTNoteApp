@@ -1,0 +1,2 @@
+insert into APP_USER(USER_ID, PASSWORD, EMAIL_ID,CREATE_TIME,UPDATE_TIME) values(1, '$2a$10$bnC26zz//2cavYoSCrlHdecWF8tkGfPodlHcYwlACBBwJvcEf0p2G', 'rkamh@gmail.com','2017-04-03 15:52:25',null);
+INSERT INTO APP_USER_NOTES (CREATE_TIME, NOTE, TITLE, UPDATE_TIME, USER_EMAIL_ID) VALUES ('2017-04-04', 'This is Simple User Note Spring Boot Application', 'GoT User Note', '2017-04-04', 'rkamh@gmail.com');
